@@ -29,70 +29,76 @@
 
             <!-- Predefined TextBoxes for letters -->
             <Border Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox00" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox00" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
             <Border Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox01" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox01" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
             <Border Grid.Row="0" Grid.Column="2" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox02" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox02" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
-
-            <!-- Repeat for all rows -->
+            
             <!-- Row 1 -->
             <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox10" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox10" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
             <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox11" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox11" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
             <Border Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox12" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox12" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
+            
+
 
             <!-- Row 2 -->
             <Border Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox20" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox20" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
             <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox21" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox21" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
             <Border Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox22" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox22" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
+           
 
             <!-- Row 3 -->
             <Border Grid.Row="3" Grid.Column="0" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox30" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox30" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
             <Border Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox31" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox31" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"  MinWidth="40"/>
             </Border>
             <Border Grid.Row="3" Grid.Column="2" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox32" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox32" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
+           
 
             <!-- Row 4 -->
             <Border Grid.Row="4" Grid.Column="0" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox40" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox40" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
             <Border Grid.Row="4" Grid.Column="1" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox41" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox41" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
             <Border Grid.Row="4" Grid.Column="2" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox42" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox42" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
+            
+
 
             <!-- Row 5 -->
             <Border Grid.Row="5" Grid.Column="0" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox50" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox50" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
             <Border Grid.Row="5" Grid.Column="1" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox51" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox51" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
             <Border Grid.Row="5" Grid.Column="2" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="5" Background="White">
-                <TextBox Name="TextBox52" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None"/>
+                <TextBox Name="TextBox52" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" CaretBrush="Transparent" Focusable="False" Cursor="None" MinWidth="40"/>
             </Border>
+           
         </Grid>
 
         <WrapPanel x:Name="KeyboardWrapPanel" Grid.Row="1" Margin="10" HorizontalAlignment="Center">

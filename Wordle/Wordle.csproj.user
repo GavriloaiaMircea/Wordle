@@ -7,10 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="FiveLetterWordleWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="FourLetterWordleWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="HowToPlayWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SixLetterWordleWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ThreeLetterWordleWindow.xaml.cs">
@@ -18,6 +24,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="FiveLetterWordleWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="FourLetterWordleWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -25,6 +34,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SixLetterWordleWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ThreeLetterWordleWindow.xaml">

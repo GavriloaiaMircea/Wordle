@@ -133,50 +133,65 @@ namespace Wordle
 
         private void CheckGuess()
         {
-            var remainingLetters = _targetWord.ToCharArray().ToList();
-            var guessLetters = _currentGuess.ToCharArray();
+            Dictionary<char, int> letterFrequency = new Dictionary<char, int>();
+            foreach (char c in _targetWord)
+            {
+                if (letterFrequency.ContainsKey(c))
+                    letterFrequency[c]++;
+                else
+                    letterFrequency[c] = 1;
+            }
 
-            // Check for correct letters in correct positions
+            // First pass to apply green for correct matches
             for (int i = 0; i < 3; i++)
             {
                 var textBox = (TextBox)FindName($"TextBox{_currentRow}{i}");
-                if (textBox != null)
+                if (_currentGuess[i] == _targetWord[i])
                 {
-                    if (_targetWord[i] == _currentGuess[i])
-                    {
-                        textBox.Background = Brushes.Green;
-                        remainingLetters.Remove(_currentGuess[i]);
-                        UpdateKeyboard(_currentGuess[i], Brushes.Green);
-                    }
+                    textBox.Background = Brushes.Green;
+                    letterFrequency[_currentGuess[i]]--;
+                    UpdateKeyboardKeyColor(_currentGuess[i].ToString(), Brushes.Green);
                 }
             }
 
-            // Check for correct letters in wrong positions
+            // Second pass to apply yellow or gray
             for (int i = 0; i < 3; i++)
             {
                 var textBox = (TextBox)FindName($"TextBox{_currentRow}{i}");
-                if (textBox != null && textBox.Background != Brushes.Green)
+                if (textBox.Background != Brushes.Green)
                 {
-                    if (remainingLetters.Contains(_currentGuess[i]))
+                    if (_targetWord.Contains(_currentGuess[i]) && letterFrequency[_currentGuess[i]] > 0)
                     {
                         textBox.Background = Brushes.Yellow;
-                        remainingLetters.Remove(_currentGuess[i]);
-                        UpdateKeyboard(_currentGuess[i], Brushes.Yellow);
+                        letterFrequency[_currentGuess[i]]--;
+                        UpdateKeyboardKeyColor(_currentGuess[i].ToString(), Brushes.Yellow, ignoreGreen: true);
                     }
                     else
                     {
                         textBox.Background = Brushes.Gray;
-                        UpdateKeyboard(_currentGuess[i], Brushes.Gray);
+                        UpdateKeyboardKeyColor(_currentGuess[i].ToString(), Brushes.Gray, ignoreGreen: true);
                     }
                 }
             }
         }
 
-        private void UpdateKeyboard(char letter, Brush color)
+        private void UpdateKeyboardKeyColor(string key, Brush color, bool ignoreGreen = false)
         {
-            foreach (var button in KeyboardWrapPanel.Children.OfType<Button>())
+            foreach (Button button in KeyboardWrapPanel.Children)
             {
-                if (button.Content.ToString() == letter.ToString())
+                if (button.Content.ToString().Equals(key, StringComparison.OrdinalIgnoreCase))
+                {
+                    if (!ignoreGreen || button.Background != Brushes.Green) // Do not overwrite green with yellow or gray
+                        button.Background = color;
+                }
+            }
+        }
+
+        private void UpdateKeyboardKeyColor(string key, Brush color)
+        {
+            foreach (Button button in KeyboardWrapPanel.Children)
+            {
+                if (button.Content.ToString().Equals(key, StringComparison.OrdinalIgnoreCase))
                 {
                     button.Background = color;
                 }

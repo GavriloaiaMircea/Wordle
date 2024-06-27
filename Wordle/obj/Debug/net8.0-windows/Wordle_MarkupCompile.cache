@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Wordle\Wordle\App.xaml
-4891940390
+61238456437
 
-7-894338494
+9748453758
 198155382431
-FourLetterWordleWindow.xaml;HowToPlayWindow.xaml;MainWindow.xaml;ThreeLetterWordleWindow.xaml;
+FiveLetterWordleWindow.xaml;FourLetterWordleWindow.xaml;HowToPlayWindow.xaml;MainWindow.xaml;SixLetterWordleWindow.xaml;ThreeLetterWordleWindow.xaml;
 
 False
 

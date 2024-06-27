@@ -32,14 +32,14 @@ namespace Wordle
 
         private void FiveLettersButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Starting game with 5-letter words.");
-            // Logic to start the game with 5-letter words
+            var fiveLetterWordleWindow = new FiveLetterWordleWindow();
+            fiveLetterWordleWindow.Show();
         }
 
         private void SixLettersButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Starting game with 6-letter words.");
-            // Logic to start the game with 6-letter words
+            var sixLetterWordleWindow = new SixLetterWordleWindow();
+            sixLetterWordleWindow.Show();
         }
 
         private void HowToPlayButton_Click(object sender, RoutedEventArgs e)

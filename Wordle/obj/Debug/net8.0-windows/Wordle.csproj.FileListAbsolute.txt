@@ -50,3 +50,7 @@ D:\Wordle\Wordle\obj\Debug\net8.0-windows\Wordle.genruntimeconfig.cache
 D:\Wordle\Wordle\obj\Debug\net8.0-windows\ref\Wordle.dll
 D:\Wordle\Wordle\obj\Debug\net8.0-windows\FourLetterWordleWindow.g.cs
 D:\Wordle\Wordle\obj\Debug\net8.0-windows\FourLetterWordleWindow.baml
+D:\Wordle\Wordle\obj\Debug\net8.0-windows\FiveLetterWordleWindow.g.cs
+D:\Wordle\Wordle\obj\Debug\net8.0-windows\FiveLetterWordleWindow.baml
+D:\Wordle\Wordle\obj\Debug\net8.0-windows\SixLetterWordleWindow.g.cs
+D:\Wordle\Wordle\obj\Debug\net8.0-windows\SixLetterWordleWindow.baml
