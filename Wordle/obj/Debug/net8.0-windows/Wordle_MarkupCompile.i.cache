@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Wordle\Wordle\Wordle\obj\Debug\net8.0-windows\
+D:\Wordle\Wordle\obj\Debug\net8.0-windows\
 Wordle
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Wordle\Wordle\Wordle\App.xaml
-3-595607210
+D:\Wordle\Wordle\App.xaml
+4891940390
 
-8190564142
+9535669756
 198155382431
-HowToPlayWindow.xaml;MainWindow.xaml;ThreeLetterWordleWindow.xaml;
+FourLetterWordleWindow.xaml;HowToPlayWindow.xaml;MainWindow.xaml;ThreeLetterWordleWindow.xaml;
 
 False
 

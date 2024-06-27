@@ -9,12 +9,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\four_letter_words.txt" />
     <None Remove="Resources\how_to_play.png" />
     <None Remove="Resources\three_letter_words.txt" />
     <None Remove="Resources\wordle.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\four_letter_words.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resources\how_to_play.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>

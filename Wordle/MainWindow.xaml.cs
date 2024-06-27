@@ -26,8 +26,8 @@ namespace Wordle
 
         private void FourLettersButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Starting game with 4-letter words.");
-            // Logic to start the game with 4-letter words
+            var fourLetterWordleWindow = new FourLetterWordleWindow();
+            fourLetterWordleWindow.Show();
         }
 
         private void FiveLettersButton_Click(object sender, RoutedEventArgs e)
